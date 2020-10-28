@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './SearchBox.css';
-import { ReactComponent as SearchIcon } from './assets/ic-search.svg';
+import { ReactComponent as SearchIcon } from '../assets/ic-search.svg';
 
 
 /**
@@ -38,7 +38,3 @@ SearchBox.defaultProps = {
   action: "",
   placeholder: 'Search for a book',
 };
-
-
-
-
